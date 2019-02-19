@@ -16,7 +16,7 @@ myresult = mycursor.fetchall()
 
 my_list = []
 for x in myresult:
-  #append items to a list  
+  #append items to a list
   my_list.append(x)
 encoded_str = json.dumps(my_list)
 print(encoded_str)
